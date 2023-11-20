@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 15px;
+    color: white;
+}
+header{
+    background:linear-gradient(#4B2C24, #2B1712);
+    padding-bottom: 60px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.links{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    transition: all .2s ease;
+    font-family: 'Pacifico', cursive;
+}
+.links a:hover{
+    color: #DDB66F;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.coffe_time h1{
+    font-size: 70px;
+    color: white;
+    width: 500px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+}
+h1 span img{
+    width: 80px;
+} 
+.coffe_time p{
+    color: #DDB66F;
+    font-family: 'Poppins', sans-serif;
+}
+.coffe_time p:nth-child(3){
+    color: white;
+    width: 350px;
+    margin-bottom: 20px;
+}
+.koko{
+    border-bottom: 2px dashed #847571;
+    margin-top: -30px;
+}
+.coffe_time button{
+    padding: 10px 20px;
+    background-color: #DDB66F;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 4px 2px#DDB66F;
+}
+
+.scrol_down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.right{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+.left p{
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+}
+.left button{
+    padding: 15px 20px;
+    background-color: #2B1712;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container_blog{
+    background-color: #492D26;
+    border-radius: 60px 60px 0px 0px;
+    margin-top: -60px;
+    padding-bottom: 80px;
+}
+.coll{
+    background-color: white;
+    margin-top: -80px;
+    border-radius: 80px 80px 0px 0px;
+    padding-bottom: 80px;
+}
+.colte{
+    display: flex;
+    color: black;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 0px;
+}
+.right1 h1{
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-family: 'Pacifico', cursive;
+}
+.right1 p{
+    width: 463px;
+    font-family: 'Poppins', sans-serif;
+}
+.gojo{
+    padding: 50px 0px;
+}
+
+.boottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.tops{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tops h1{
+    font-size: 48px;
+    font-family: 'Pacifico', cursive;
+}
+.mol{
+    background-image: url(./imgs/bg-coffee-beans\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #492D26;
+    margin-top: -80px;
+    border-radius: 80px 80px 0px 0px;
+    padding-bottom: 80px;
+}
+
+.card p{
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+}
+.card2 p{
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+}
+.noko{
+    display: none;
+}
+.card2{
+    margin-top: 300px;
+}
+.joker{
+    background-color: white;
+    padding: 100px 0px;
+    margin-top: -80px;
+    border-radius: 80px 80px 0px 0px;
+}
+
+.best{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: black;
+}
+.cofe_best h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    margin-bottom: 50px;
+    width: 550px;
+}
+.cofe_best h2{
+    color: rgb(64, 64, 64);
+    font-weight: 200;
+}
+.kogo{
+    background-image: url(./imgs/bg-coffee-beans\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #492D26;
+    margin-top: -80px;
+    border-radius: 80px 80px 0px 0px;
+    padding-bottom: 80px;
+    padding: 50px 0px;
+}
+
+.bek{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Pacifico', cursive;
+}
+.black button{
+    padding: 15px 80px;
+    background-color: #DDB66F;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+.footer_bad input{
+    padding: 15px 35px;
+    background-color: #ddb76f00;
+    color: #fff;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.footer_bad p span{
+    color: #DDB66F;
+    font-family: 'Poppins', sans-serif;
+}
+.footer_bad p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.non{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.solo{
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.non p{
+    color: #847571;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 468px){
+    .links{
+        display: none;
+    }
+    .logo{
+        width: 90%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .hero{
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+   .natural img{
+        width: 100%;
+   }
+   .coffe_time p:nth-child(3){
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+   }
+   .hero h1{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+   }
+   .coffe_time img{
+   display: none;
+   }
+   .scrol_down{
+        flex-wrap: wrap;
+        align-items: center;
+   }
+   .right{
+    flex-wrap: wrap;
+   }
+   .left{
+    text-align: center;
+   }
+   .left p{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+   }
+   .colte{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    text-align: center;
+   }
+   .left1 img{
+    width: 100%;
+   }
+   .right1 p, h1{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+   }
+   .boottom{
+    flex-direction: column;
+   }
+   .card{
+    text-align: start;
+   }
+   .card p{
+    width: 90%;
+    margin: 0 auto;
+   }
+   .card2{
+    text-align: end;
+    margin-top: 50px;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+   }
+   .card2 .noko{
+    width: 90%;
+    margin: 0 auto;
+   }
+   .card2 p:nth-child(1){
+    display: none;
+   }
+   .card img{
+    width: 50%;
+   }
+   .card2 img{
+    width: 50%;
+   }
+   .noko{
+    display: block;
+   }
+   .best{
+    flex-wrap: wrap;
+    text-align: center;
+   }
+   .best h1{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+   }
+   .best img{
+    width: 100%;
+   }
+   .bek{
+    flex-wrap: wrap;
+    text-align: center;
+   }
+   .footer_bad input{
+    width: 100%;
+   }
+   .black button{
+    width: 100%;
+   }
+}
